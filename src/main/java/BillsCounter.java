@@ -20,8 +20,9 @@ public class BillsCounter {
             index--;
         }
         for (int i = count.size() - 1; i >= 0; i--) {
-            if (count.get(i) != 0)
+            if (count.get(i) != 0) {
                 System.out.printf("Bill %d₴ * %d, ", values.get(i), count.get(i));
+            }
         }
     }
 }
